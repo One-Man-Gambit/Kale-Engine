@@ -1,0 +1,3 @@
+[submodule "Kale/vendor/spdlog"]
+	path = Kale/vendor/spdlog
+	url = https://github.com/gabime/spdlog

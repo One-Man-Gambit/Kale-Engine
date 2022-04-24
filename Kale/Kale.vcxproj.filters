@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{D9DE78AF-4594-F1A4-CE88-EB7B3A3DE8A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debugging">
+      <UniqueIdentifier>{51835CA9-BDED-1020-062C-C2C572D5EE74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kale">
+      <UniqueIdentifier>{E2DA877C-CE11-890D-77FE-6E106314050F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Application\Application.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Application\EntryPoint.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Debugging\Debug.h">
+      <Filter>Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kale.h" />
+    <ClInclude Include="src\Kale\Base.h">
+      <Filter>Kale</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Kale\Core.h">
+      <Filter>Kale</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Application\Application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Debugging\Debug.cpp">
+      <Filter>Debugging</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

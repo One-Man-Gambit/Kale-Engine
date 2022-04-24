@@ -1,15 +1,15 @@
 
 #include <Kale.h>
 
-class EditorApp : public Kale::Application
+class Sandbox : public Kale::Application
 {
 public:
-	EditorApp()
+	Sandbox()
 	{
 
 	}
 
-	~EditorApp()
+	~Sandbox()
 	{
 
 	}
@@ -18,5 +18,5 @@ public:
 
 Kale::Application* Kale::CreateApplication()
 {
-	return new EditorApp();
+	return new Sandbox();
 }
